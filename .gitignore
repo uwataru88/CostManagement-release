@@ -1,0 +1,9 @@
+# CostManagement-release 저장소용 .gitignore (deploy.sh 가 release 저장소에 복사한다)
+# 허용 목록 방식: 아래에 적은 배포 산출물 외에는 전부 무시한다.
+# → 원본 소스(.py), .spec, build/, dist/, .venv, __pycache__, data/(업체 DB) 등이 실수로 올라가지 않는다.
+*
+!.gitignore
+!README.md
+!VERSION
+!CostManagement.zip
+!CostManagement.zip.sha256
